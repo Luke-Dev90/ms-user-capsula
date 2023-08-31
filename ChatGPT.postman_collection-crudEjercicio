@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "217a7f9b-3494-4791-93f0-51096026823e",
+		"name": "ChatGPT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13757094"
+	},
+	"item": [
+		{
+			"name": "GET- LOCAL FIND BY USERNAME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8020/user/search/username?username=user6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8020",
+					"path": [
+						"user",
+						"search",
+						"username"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "user6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET- LOCAL FIND BY ROLE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8020/user/search/username?username=user6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8020",
+					"path": [
+						"user",
+						"search",
+						"username"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "user6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET- LOCAL FIND BY ROLE Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"lucaschalela11\",\r\n    \"password\" : \"1234\",\r\n    \"password2\" : \"1234\",\r\n    \"nombre\" : \"lucas\",\r\n    \"apellido\" : \"chalela\",\r\n    \"sexo\" : \"masculino\",\r\n    \"pais\" : \"argentina\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8020/user/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8020",
+					"path": [
+						"user",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET- LOCAL FIND BY ROLE Copy 2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"lucaschalela11\",\r\n    \"password\" : \"1234\",\r\n    \"password2\" : \"1234\",\r\n    \"nombre\" : \"lucas\",\r\n    \"apellido\" : \"chalela\",\r\n    \"sexo\" : \"masculino\",\r\n    \"pais\" : \"argentina\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8020/user/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8020",
+					"path": [
+						"user",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

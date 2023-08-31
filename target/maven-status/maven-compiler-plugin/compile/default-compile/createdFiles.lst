@@ -1,0 +1,12 @@
+com\chale\user\controller\UserController.class
+com\chale\user\service\UserService.class
+com\chale\user\Application.class
+com\chale\user\mapper\UserMapper.class
+com\chale\user\dto\UserRegisterDTO.class
+com\chale\user\repository\RoleRepository.class
+com\chale\user\model\Role.class
+com\chale\user\dto\UserDTO.class
+com\chale\user\repository\UserRepository.class
+com\chale\user\mapper\UserMapperImpl.class
+com\chale\user\model\User.class
+com\chale\user\dto\RoleDTO.class
